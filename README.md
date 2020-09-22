@@ -28,8 +28,8 @@ Hi everyone!
 
 - je vais diviser template.html en trois morceau avec 3 contenair chaque il aurait un class avec votre prenom sur la base des les points que vous allez choisir / I will split the template.html in 3 containeirs each will have u're name it depends by the parts u will choise to work on: ( example :)
 
-<div class="olga"></div>
-<div class="ryad"></div>
-<div class="gianluca"></div>
+div class="olga"
+div class="ryad"
+div class="gianluca"
 
 
