@@ -1,7 +1,11 @@
 /* Add a black background color to the top navigation */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .topnav {
-    background-color: #333;
+    background-color: gray;
     overflow: hidden;
 }
 
@@ -30,7 +34,7 @@
 /* Add an active class to highlight the current page */
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
 }
 
@@ -71,4 +75,71 @@
         display: block;
         text-align: left;
     }
+}
+
+
+/* gianluca div 3 good things and social bar */
+
+#grid1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+#grid1>div {
+    font-size: 15px;
+    padding: 5px;
+    background: #3589a1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    #grid1 {
+        margin-top: 30px;
+        display: block;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+/* style the image inside each 3 "3 things good" cards*/
+
+.img-circle {
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    border: solid 3px darkgray;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+/* Footer section with social bar */
+
+.footer {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
 }
