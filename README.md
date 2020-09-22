@@ -24,7 +24,7 @@ Hi everyone!
  - quelques un qui s'occupe des deux deusieme points dans la page personal "How did the Person changed your life" and "things that inspires you about him/her" / Someone that works on the 2 second points of the personal pages "How did the Person changed your life" and "things that inspires you about him/her"------> name :
  - quelques un qui s'occupe des deux troisieme points dans la page personal "Links To 3 things that he/her did" and "Links to his/her socials account if they have one." / Someone that works on the 2 third points of the personal pages "Links To 3 things that he/her did" and "Links to his/her socials account if they have one." -----> name : 
 
-- Ici on peut coller le lien au fonts que on veut utiliser je pense avec 1 seul ce sarait plus simple / Here we can paste the fonts that we will chose to use. I think 1 will easier : ( i put an example / une exmaple ) <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> font-family: 'Raleway', sans-serif;
+- Ici on peut coller le lien au fonts que on veut utiliser je pense avec 1 seul ce sarait plus simple / Here we can paste the fonts that we will chose to use. I think 1 will easier : ( i put an example / une exmaple ) [key]:"https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" font-family: 'Raleway', sans-serif;
 
 - je vais diviser template.html en trois morceau avec 3 contenair chaque il aurait un class avec votre prenom sur la base des les points que vous allez choisir / I will split the template.html in 3 containeirs each will have u're name it depends by the parts u will choise to work on: ( example :)
 
