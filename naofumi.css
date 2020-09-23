@@ -1,5 +1,9 @@
-html, body {
-  background-color: rgb(255, 0, 0); 
-  font-family: Verdana, sans-serif; 
-  font-size: 100%;
-  }
+h1 {
+  text-align: center;
+}
+h1, h2 {
+  text-decoration: underline;
+}
+p {
+  text-align: right
+}
