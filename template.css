@@ -1,5 +1,5 @@
 html body {
-    background-color: #FFEFD5;
+    background-color: whitesmoke;
 }
 
 
@@ -10,7 +10,7 @@ body {
 }
 
 .topnav {
-    background-color: gray;
+    background-color: tomato;
     overflow: hidden;
 }
 
@@ -100,7 +100,7 @@ body {
 #grid1>div {
     font-size: 15px;
     padding: 5px;
-    background: #3589a1;
+    background: tomato;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 20px;
@@ -143,9 +143,9 @@ a {
 /* the button is under form for make it possible to make extarnal link without using js */
 
 input[type=submit] {
-    background-color: grey;
+    background-color: whitesmoke;
     border: none;
-    color: white;
+    color: black;
     padding: 18px 36px;
     text-decoration: none;
     margin: 5px 4px;
@@ -153,18 +153,7 @@ input[type=submit] {
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 15px;
-}
-
-input[type=button] {
-    background-color: grey;
-    border: none;
-    color: white;
-    padding: 18px 36px;
-    text-decoration: none;
-    margin: 5px 4px;
-    cursor: pointer;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
 }
 
 .back {
@@ -179,5 +168,5 @@ input[type=button] {
     margin-top: 30px;
     padding: 10px;
     text-align: center;
-    background-color: grey;
+    background-color: black;
 }
