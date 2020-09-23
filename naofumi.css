@@ -1,14 +1,17 @@
-.h1,h2,p {
+h1,h2,p {
   text-align: center
 }
-
-.img {
+img {
   align-items: center 
 }
-
-.h2 {
+h2 {
   text-decoration: underline;
 }
 body {
   background-color: hotpink;
 }
+h2 {
+  font-size: 150%; 
+  color: red; 
+  padding-left: 15px;
+  }
