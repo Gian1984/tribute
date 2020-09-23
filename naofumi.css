@@ -1,7 +1,7 @@
-h1,h2,h3 {
+h1,h2,p {
   text-align: center
 }
-h3 {
+p {
   color: green
 }
 img {
