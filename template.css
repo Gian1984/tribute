@@ -1,7 +1,6 @@
 html body {
-    background-color: #FFEFD5;
+    background-color: whitesmoke;
 }
-
 
 /* Add a black background color to the top navigation */
 
@@ -180,4 +179,71 @@ input[type=button] {
     padding: 10px;
     text-align: center;
     background-color: grey;
+}
+
+/* Add style for part bio */
+
+#name-of-page {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#name-of-page a {
+    text-decoration: none;
+}
+
+#bio {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    background: rgba(255, 99, 71, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+td {
+    padding: 5px;
+}
+
+#photo-of-hero {
+    border-radius: 10px;
+    border: solid 3px whitesmoke;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bio-text {
+    text-align: justify;
+}
+
+.name-and-place {
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.name-and-place:hover {
+    color: black;
+    text-decoration-line: underline;
+}
+
+a:visited {
+    color: black;
+   }
+
+/* Add style for map */
+
+#map h2 {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
 }
