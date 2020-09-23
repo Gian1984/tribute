@@ -140,6 +140,39 @@ a {
 }
 
 
+/* the button is under form for make it possible to make extarnal link without using js */
+
+input[type=submit] {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+}
+
+input[type=button] {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
 /* Footer section with social bar */
 
 .footer {
