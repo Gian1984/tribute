@@ -2,7 +2,6 @@ html body {
     background-color: #FFEFD5;
 }
 
-
 /* Add a black background color to the top navigation */
 
 body {
@@ -147,4 +146,27 @@ a {
     padding: 10px;
     text-align: center;
     background-color: grey;
+}
+
+/* Add style for part bio */
+
+#bio {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    background: #3589a1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+td {
+    padding: 5px;
+}
+
+#photo-of-hero {
+    border-radius: 10px;
 }
