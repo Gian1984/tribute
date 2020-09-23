@@ -8,3 +8,38 @@ p {
   text-align: right
 }
 
+.border{
+  border-radius: 10px;    
+  border: solid 3px darkgray;    
+  box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background:tomato;
+}
+h2 {
+  text-align: center;
+}
+#txt {
+  border-radius: 10px;    
+  border: solid 3px darkgray;    
+  box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: tomato;
+  margin-bottom: 30px;
+}
+.border {
+  border-radius: 50%;
+}
+.border {
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  border-color: tomato;
+}
+.border{
+  align-items: center;
+}
+body {
+  background:whitesmoke;
+}
