@@ -238,8 +238,6 @@ a:visited {
     color: black;
     font-size: 30px;
     font-weight: bold;
-<<<<<<< HEAD
-=======
 }
 
 .row {
@@ -410,5 +408,4 @@ input[type=checkbox] {
 .button:hover .button__vertical {
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
->>>>>>> gianluca
 }
