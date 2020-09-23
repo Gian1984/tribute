@@ -19,10 +19,10 @@ Hi everyone!
 
 -On pourrait diviser le tache comme ca / We can split the things like this:
  
- - quelques un qui s'occupe de l'index ou landing pages / Someone that work on the index landing pages  -----> name :
- - quelques un qui s'occupe des deux premier points dans la page personal "Picture of the Person" and "bio of the Person"/ Someone that works on the 2 first points of the personal pages "Picture of the Person" and "bio of the Person" ------> name :
- - quelques un qui s'occupe des deux deusieme points dans la page personal "How did the Person changed your life" and "things that inspires you about him/her" / Someone that works on the 2 second points of the personal pages "How did the Person changed your life" and "things that inspires you about him/her"------> name :
- - quelques un qui s'occupe des deux troisieme points dans la page personal "Links To 3 things that he/her did" and "Links to his/her socials account if they have one." / Someone that works on the 2 third points of the personal pages "Links To 3 things that he/her did" and "Links to his/her socials account if they have one." -----> name : 
+ - quelques un qui s'occupe de l'index ou landing pages / Someone that work on the index landing pages  -----> name : **#soumaya**
+ - quelques un qui s'occupe des deux premier points dans la page personal "Picture of the Person" and "bio of the Person"/ Someone that works on the 2 first points of the personal pages "Picture of the Person" and "bio of the Person" ------> name : **#Olga**
+ - quelques un qui s'occupe des deux deusieme points dans la page personal "How did the Person changed your life" and "things that inspires you about him/her" / Someone that works on the 2 second points of the personal pages "How did the Person changed your life" and "things that inspires you about him/her"------> name : **#Ryad**
+ - quelques un qui s'occupe des deux troisieme points dans la page personal "Links To 3 things that he/her did" and "Links to his/her socials account if they have one." / Someone that works on the 2 third points of the personal pages "Links To 3 things that he/her did" and "Links to his/her socials account if they have one." -----> name : **#gianluca**
 
 - Ici on peut coller le lien au fonts que on veut utiliser je pense avec 1 seul ce sarait plus simple / Here we can paste the fonts that we will chose to use. I think 1 will easier : ( i put an example / une exmaple ) [key]:"https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" font-family: 'Raleway', sans-serif;
 
@@ -31,5 +31,3 @@ Hi everyone!
 div class="olga"
 div class="ryad"
 div class="gianluca"
-
-
