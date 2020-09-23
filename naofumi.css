@@ -1,17 +1,5 @@
-h1,h2,p {
-  text-align: center
-}
-img {
-  align-items: center 
-}
-h2 {
-  text-decoration: underline;
-}
-body {
-  background-color: hotpink;
-}
-h2 {
-  font-size: 150%; 
-  color: red; 
-  padding-left: 15px;
+h1 {
+  font-size: 200%; 
+  color: navy; 
+  text-align: center;
   }
