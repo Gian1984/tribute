@@ -99,7 +99,7 @@ body {
 
 #grid1>div {
     font-size: 15px;
-    padding: 5px;
+    padding: 15px;
     background: tomato;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -127,6 +127,13 @@ a {
     }
 }
 
+.film {
+    font-weight: bold;
+    font-size: 16px;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+}
+
 
 /* style the image inside each 3 "3 things good" cards*/
 
@@ -135,8 +142,8 @@ a {
     align-items: center;
     text-align: center;
     border: solid 3px darkgray;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 
