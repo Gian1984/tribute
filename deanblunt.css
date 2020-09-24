@@ -1,58 +1,14 @@
-<<<<<<< HEAD
-h1 {
-  text-align: center;
-}
-h1, h2 {
-  text-decoration: underline;
-}
-p {
-  text-align: right
-}
-
-.border{
-  border-radius: 10px;    
-  border: solid 3px darkgray;    
-  box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background:tomato;
-}
-h2 {
-  text-align: center;
-}
-#txt {
-  border-radius: 10px;    
-  border: solid 3px darkgray;    
-  box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background: tomato;
-  margin-bottom: 30px;
-}
-.border {
-  border-radius: 50%;
-}
-.border {
-  display: block;
-  margin-left: 30px;
-  margin-right: 30px;
-  display: table;
-  border-collapse: separate;
-  box-sizing: border-box;
-  border-spacing: 2px;
-  border-color: tomato;
-}
-.border{
-  align-items: center;
-}
-body {
-  background:whitesmoke;
-=======
 html body {
     background-color: whitesmoke;
 }
+
 
 
 /* Add a black background color to the top navigation */
 
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .topnav {
@@ -146,9 +102,11 @@ body {
 #grid1>div {
     font-size: 15px;
     padding: 5px;
+
     background: tomato;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     margin-top: 20px;
 }
 
@@ -164,6 +122,8 @@ body {
 }
 
 a {
+
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
@@ -213,24 +173,30 @@ input[type=submit] {
 .footer {
     margin-top: 30px;
     padding: 10px;
-    text-align: center;
-    background-color: black;
-}
 
+    text-align: center;    
+    background-color: black;
+
+   
+}
 
 /* Add style for part bio */
 
 #name-of-page {
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 30px;
     padding: 10px;
     text-align: center;
-    color: black;
+    color: pink;
     font-size: 50px;
     font-weight: bold;
 }
-
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
 #name-of-page a {
     text-decoration: none;
+    
 }
 
 #bio {
@@ -240,8 +206,6 @@ input[type=submit] {
     text-align: center;
     font-size: 15px;
     padding: 5px;
-    background: rgba(255, 99, 71, 0.9);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 20px;
 }
 
@@ -253,8 +217,10 @@ td {
     border-radius: 10px;
     border: solid 3px whitesmoke;
     box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     max-width: 300px;
     max-height: 300px;
+
 }
 
 #bio-text {
@@ -274,6 +240,7 @@ td {
 
 a:visited {
     color: black;
+
 }
 
 
@@ -286,6 +253,7 @@ a:visited {
     color: black;
     font-size: 30px;
     font-weight: bold;
+
 }
 
 .row {
@@ -456,5 +424,5 @@ input[type=checkbox] {
 .button:hover .button__vertical {
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
->>>>>>> cead9d20a7d058d1ccdbeb859345430381e12193
+
 }
