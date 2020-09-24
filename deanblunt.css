@@ -1,8 +1,6 @@
 html body {
     background-color: whitesmoke;
-    
 }
-
 
 
 /* Add a black background color to the top navigation */
@@ -10,15 +8,12 @@ html body {
 body {
     font-family: 'Open Sans', sans-serif;
     background-image:url(deanblunt-images/deanbluntbest.jpeg);
-
 }
 
 .topnav {
-    
-    overflow: hidden;
-    
-}
 
+    overflow: hidden;
+}
 
 /* Style the links inside the navigation bar */
 
@@ -44,7 +39,7 @@ body {
 /* Add an active class to highlight the current page */
 
 .topnav a.active {
-    
+
     color: white;
 }
 
@@ -96,7 +91,7 @@ body {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1vw;
-    border-radius: 20px;
+    
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -192,7 +187,10 @@ input[type=submit] {
     font-weight: bold;
 }
 h1 {
-   color: whitesmoke
+   color: whitesmoke;
+   padding-top: 60px;
+   padding-bottom: 20px;
+   text-align: center;
 }
 #name-of-page a {
     margin-top: -550px;
@@ -253,6 +251,7 @@ a:visited {
 /* Add style for map */
 h2 {
     color: whitesmoke;
+    padding-top: 60px;
 }
 #map h2 {
     margin-top: 30px;
