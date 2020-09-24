@@ -2,7 +2,6 @@ html body {
     background-color: whitesmoke;
 }
 
-
 /* Add a black background color to the top navigation */
 
 body {
@@ -138,6 +137,7 @@ a {
     max-width: 200px;
     max-height: 200px;
 }
+
 
 
 /* the button is under form for make it possible to make extarnal link without using js */
@@ -408,4 +408,5 @@ input[type=checkbox] {
 .button:hover .button__vertical {
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
+
 }
