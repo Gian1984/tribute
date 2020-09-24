@@ -139,6 +139,7 @@ a {
 }
 
 
+
 /* the button is under form for make it possible to make extarnal link without using js */
 
 input[type=submit] {
@@ -167,11 +168,9 @@ input[type=submit] {
     margin-top: 30px;
     padding: 10px;
     text-align: center;
-
     background-color: black;
-
-   
 }
+
 
 /* Add style for part bio */
 
@@ -227,7 +226,8 @@ td {
 
 a:visited {
     color: black;
-   }
+}
+
 
 /* Add style for map */
 
@@ -238,5 +238,175 @@ a:visited {
     color: black;
     font-size: 30px;
     font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 20px;
+}
+
+.column img {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.gallery img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    border: tomato 1px solid;
+}
+
+
+/* STYLE NEWSLETTER SUBSCRIBE */
+
+
+/* Add some padding and a grey background color to containers */
+
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: tomato 1px solid;
+}
+
+
+/* Style the input elements and the submit button */
+
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Add margins to the checkbox */
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+
+/* Style the submit button */
+
+.button {
+    margin: 20px;
+    --offset: 10px;
+    --border-size: 2px;
+    display: block;
+    position: relative;
+    padding: 1.5em 3em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: tomato;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    -webkit-transition: background .8s ease;
+    transition: background .8s ease;
+}
+
+.button:hover {
+    background: rgba(100, 0, 0, 0.03);
+}
+
+.button__horizontal,
+.button__vertical {
+    position: absolute;
+    top: var(--horizontal-offset, 0);
+    right: var(--vertical-offset, 0);
+    bottom: var(--horizontal-offset, 0);
+    left: var(--vertical-offset, 0);
+    -webkit-transition: -webkit-transform .8s ease;
+    transition: -webkit-transform .8s ease;
+    transition: transform .8s ease;
+    transition: transform .8s ease, -webkit-transform .8s ease;
+    will-change: transform;
+}
+
+.button__horizontal::before,
+.button__vertical::before {
+    content: '';
+    position: absolute;
+    border: inherit;
+}
+
+.button__horizontal {
+    --vertical-offset: calc(var(--offset) * -1);
+    border-top: var(--border-size) solid currentcolor;
+    border-bottom: var(--border-size) solid currentcolor;
+}
+
+.button__horizontal::before {
+    top: calc(var(--vertical-offset) - var(--border-size));
+    bottom: calc(var(--vertical-offset) - var(--border-size));
+    left: calc(var(--vertical-offset) * -1);
+    right: calc(var(--vertical-offset) * -1);
+}
+
+.button:hover .button__horizontal {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+}
+
+.button__vertical {
+    --horizontal-offset: calc(var(--offset) * -1);
+    border-left: var(--border-size) solid currentcolor;
+    border-right: var(--border-size) solid currentcolor;
+}
+
+.button__vertical::before {
+    top: calc(var(--horizontal-offset) * -1);
+    bottom: calc(var(--horizontal-offset) * -1);
+    left: calc(var(--horizontal-offset) - var(--border-size));
+    right: calc(var(--horizontal-offset) - var(--border-size));
+}
+
+.button:hover .button__vertical {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
 
 }
