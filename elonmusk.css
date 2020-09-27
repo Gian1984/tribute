@@ -82,9 +82,6 @@ body {
     }
 }
 
-
-/* gianluca div 3 good things and social bar */
-
 #grid1 {
     display: grid;
     grid-template-rows: 1fr;
